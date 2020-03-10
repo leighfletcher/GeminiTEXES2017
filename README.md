@@ -15,6 +15,8 @@ The directory structure is as follows:
 
 * NEBMaps:  Gemini/TEXES retrieval products for Jupiter's tropical domain, including  temperatures, aerosols, ammonia, phosphine, ethane, acetylene from March 2017.  Each sub-directory is for one of the seven groups of TEXES observations (i.e., a retrieval spanning 50 degrees of longitude from spectral cubes acquired within ~75 minutes).  EPS, JPEG, and IDL 'sav' files are all provided.  
 
-* TEXESdata:  Cylindrical projections of TEXES observations in each spectral setting, both as combined maps in `CylindricalMaps`, and as individual groups in `TEXESGroups.`
+* TEXESdata:  Cylindrical projections of TEXES observations in each spectral setting, both as combined maps in `CylindricalMaps`, and as individual groups in `TEXESGroups.`  Note that the raw TEXES observations can be downloaded here:  https://doi.org/10.5281/zenodo.3702328
 
 * ZonalResults:  Results from zonal-mean retrievals for each of the seven TEXES groups.  We include both level-1 retrieval products (temperatures, ammonia, phosphine, aerosols, ethane, acetylene) and level-2 derived products (windshear, thermal wind, density, para-hydrogen, heat capacity, buoyancy frequency, potential vorticity gradients).  EPS files, text files, and IDL 'sav' files are all provided.
+
+* IRTFSpeX:  Cylindrical projections of the 2016-17 record of IRTF/SpeX observations used to track the 5-micron hot spots.
